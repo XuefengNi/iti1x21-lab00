@@ -1,0 +1,5 @@
+.DS_Store
+Test*
+JUnit
+*.jar
+*.class

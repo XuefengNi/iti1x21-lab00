@@ -1,0 +1,8 @@
+#!/bin/bash
+# Only tested on a Mac OSX.
+# Please read JUnit.md for additional instructions
+# on running the tests.  If you have suggestions for
+# other platforms, then please let the professor or TA know
+javac -cp junit-4.13.jar:hamcrest-core-1.3.jar:. *.java && \
+  java -cp junit-4.13.jar:hamcrest-core-1.3.jar:. TestL00
+  
